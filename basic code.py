@@ -3,7 +3,7 @@
 print("hello world")
 print("with python")
 print("hello world","with python")
-print("python \n world")  #there is something difference between them 
+print("python \n world")  #there are something difference between them 
 print("python \nworld")
 name ="prince"
 age ="18"#it is also a string not a integer value
