@@ -1,0 +1,8 @@
+__name__=input("Enter your name:")
+age=int(input("Enter your age:"))
+college=input("Enter your college name:")
+branch=input("Enter your branch:")
+print("Name=",__name__)
+print("Age=",age)
+print("College=",college)
+print("Branch=",branch)
