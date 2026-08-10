@@ -6,4 +6,4 @@ while i<=n:
         total=total+i
 
     i+=1
-    print("sum:",total)
+print("sum:",total)
