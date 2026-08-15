@@ -14,3 +14,14 @@ print(text.find("love"))
 text = "Python python PYTHON"
 
 print(text.lower().count("python"))
+
+#boolean string type
+text = "Python Programming"
+text.startswith("Python")       # True
+text.startswith("Programming")  # False
+
+text.endswith("Programming")    # True
+text.endswith("Python")         # False 
+print(text.startswith("Python"))
+print(text.endswith("Python"))
+
