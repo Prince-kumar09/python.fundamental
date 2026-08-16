@@ -56,3 +56,42 @@ fruits = ["apple", "banana", "mango"]
 result = ",".join(fruits)
 
 print(result)
+#some boolean string concept
+#isalpha
+text = "Python"
+
+print(text.isalpha())  #true
+text = "Python Programming"
+
+print(text.isalpha()) #false beacause space doesnot allowed 
+text = "Python123"
+
+print(text.isalpha()) #false
+
+#isdigit
+text = "12345"
+
+print(text.isdigit()) #true otherwise false same as isalpha
+
+#isalnum  allowed numand alphabets but does not allowed space and special character like @$% and so same as isalpha and isdigit also
+
+text = "12345"
+
+print(text.isalnum()) #true
+text="prince"
+print(text.isalnum()) #true
+text = "Python123"
+
+print(text.isalnum()) #true
+
+#isspace it allow omly space
+text = "   "
+
+print(text.isspace()) #true
+
+text = "Python"
+
+print(text.isspace()) #false
+
+text="prince kumar"
+print(text.isspace()) #false
