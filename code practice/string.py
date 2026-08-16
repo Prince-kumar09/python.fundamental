@@ -95,3 +95,7 @@ print(text.isspace()) #false
 
 text="prince kumar"
 print(text.isspace()) #false
+
+text = "PyThOn"
+
+print(text.swapcase())# change upper letter to lower letter and and lower letter to upper letter
