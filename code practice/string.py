@@ -99,3 +99,13 @@ print(text.isspace()) #false
 text = "PyThOn"
 
 print(text.swapcase())# change upper letter to lower letter and and lower letter to upper letter
+
+#string travellsing using for loop
+word = input("Enter string:").lower()
+count = 0
+
+for char in word:
+    if char in "aeiou":
+        count += 1
+
+print("Vowels =", count)
