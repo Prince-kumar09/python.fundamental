@@ -12,7 +12,7 @@ print(num)
 
 
 ##adding another list
-numbers.extend([10,20,30])
+numbers.extend([40,50,60])
 print(numbers)
 
 #remove value from the list
@@ -34,3 +34,6 @@ print(digit)
 dig=[10,20,30]
 dig.clear()
 print(dig)
+
+
+#
