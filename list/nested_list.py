@@ -62,7 +62,7 @@ for x in numbers:
             print(y)
 
 #print number greater than 50 
-# numbers = [
+numbers = [
     [10, 20, 30],
     [40, 50, 60],
     [70, 80, 90]
