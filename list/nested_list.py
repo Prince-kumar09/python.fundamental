@@ -60,3 +60,14 @@ for x in numbers:
     for y in x:
         if y%2==0:
             print(y)
+
+#print number greater than 50 
+# numbers = [
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90]
+]
+for x in numbers:
+    for y in x:
+        if y>50:
+            print(y)            
