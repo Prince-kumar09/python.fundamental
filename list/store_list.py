@@ -22,3 +22,12 @@ numbers = [10, -5, 20, -10, 30]
 result = ["Positive" if x > 0 else "Negative" for x in numbers]
 
 print(result)
+# including zero
+numbers = [10, -5, 0, 20, -10]
+result = [
+    "Positive" if x > 0
+    else "Negative" if x < 0
+    else "Zero"
+    for x in numbers
+]
+print(result)
