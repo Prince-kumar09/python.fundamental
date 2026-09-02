@@ -1,1 +1,1 @@
-This is my Python journey
+I started  my Python journey
