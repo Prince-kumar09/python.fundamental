@@ -31,3 +31,17 @@ def student_result(name,marks1,marks2):
 student_result("prince",45,40)
 
 #same function multiple calls
+def student_result(name, marks1, marks2):
+    marks = marks1 + marks2
+
+    print("name:", name)
+    print("total:", marks)
+
+    if marks >= 80:
+        print("good")
+    else:
+        print("need improvement")
+
+student_result("prince", 45, 40)
+student_result("aman", 30, 35)
+student_result("rahul", 50, 45)
