@@ -16,3 +16,9 @@ def employee(name, department, salary):
     print(department)
     print(salary)
 employee(50000,'ai/ml',"prince")
+
+
+def product(name, price, quantity):
+    total = price * quantity
+    print(name, total)
+product("Laptop", 50000, 2)
