@@ -1,0 +1,7 @@
+def delivery_charge(amount, charge=50):
+    total = amount + charge
+    print(total)
+
+delivery_charge(500)
+delivery_charge(500, 100)
+delivery_charge(1000, 0)
