@@ -38,3 +38,25 @@ def sum(*args):
         total=total+x
     return total
 print(sum(10,20,30))
+
+
+
+def count_number(*args):
+    count=0
+    for x in args:
+        
+        count+=1
+    print(count)
+count_number(10,20,30,40)
+
+# same result with retun keyword
+
+def count_numbers(*args):
+    count = 0
+
+    for x in args:
+        count += 1
+
+    return count
+
+print(count_numbers(10, 20, 30, 40))
