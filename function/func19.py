@@ -60,3 +60,17 @@ def count_numbers(*args):
     return count
 
 print(count_numbers(10, 20, 30, 40))
+
+
+
+
+def maximum(*args):
+    m = args[0]
+
+    for x in args:
+        if x > m:
+            m = x
+
+    return m
+
+print(maximum(10, 50, 20, 80, 30))
