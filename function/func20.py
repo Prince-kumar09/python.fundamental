@@ -32,3 +32,14 @@ def profile(*args, **kwargs):
     print("Total:", total)
 
 profile(10, 20, 30, name="prince", branch="ai/ml")
+
+
+
+def outer():
+    
+    def inner():
+        print("Hello")
+
+    inner()
+
+outer()
