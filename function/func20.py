@@ -43,3 +43,14 @@ def outer():
     inner()
 
 outer()
+
+
+
+def calculator(a, b):
+
+    def add():
+        return a + b
+
+    print(add())
+
+calculator(10, 20)
