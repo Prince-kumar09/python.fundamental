@@ -15,7 +15,11 @@ def calculator(a, b):
     
     def subtract():
         return a - b
-    return add() , subtract()
+    def multiply():
+        return a * b
+    def sqr():
+        return a*a
+    return add() , subtract() ,multiply(),sqr()
 print(calculator(10, 20))
 
 
