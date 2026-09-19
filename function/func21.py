@@ -10,9 +10,12 @@ def calculator(a, b):
 
     def add():
         return a + b
+      
 
-    return add()
-
+    
+    def subtract():
+        return a - b
+    return add() , subtract()
 print(calculator(10, 20))
 
 
