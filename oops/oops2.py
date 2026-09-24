@@ -17,3 +17,21 @@ print(student1.college)
 print(student2.name)
 print(student2.age)
 print(student2.college)
+
+
+
+
+
+class Employee:
+
+    company = "Google"
+
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+employee1 = Employee("Prince", 50000)
+employee2 = Employee("Rahul", 60000)
+print(employee1.name)
+print(employee1.salary)
+print(employee2.name)
+print(employee2.salary)
