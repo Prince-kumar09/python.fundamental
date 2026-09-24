@@ -7,6 +7,7 @@ print(name)
 print(city)
 print(a)
 print(b)
+print(type(a))
 #string slicing
 print(name[0])
 print(name[1])
