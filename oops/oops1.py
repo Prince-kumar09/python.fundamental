@@ -11,7 +11,7 @@ student1=Student("prince",21)
 student1.introduce()
 
 
-
+#qwestion based on rectangle
 
 class Rectangle:
     def __init__(self,lenght,width):
@@ -24,7 +24,7 @@ print(r1.area())
 
 
 
-
+#perimeter of rectangle
 class Rectangle:
 
     def __init__(self, length, width):
