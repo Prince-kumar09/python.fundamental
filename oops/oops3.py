@@ -15,3 +15,20 @@ print(student1.school)
 print(student2.name)
 print(student2.age)
 print(student2.school)
+
+
+
+
+
+class student:
+    school="abc school"
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+student1=student("prince",21)
+student2=student("rahul",20)
+
+student.school="xyz scholl"
+print(student1.school)
+print(student2.school)
