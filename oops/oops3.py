@@ -29,6 +29,6 @@ class student:
 student1=student("prince",21)
 student2=student("rahul",20)
 
-student.school="xyz scholl"
+student.school="xyz school"
 print(student1.school)
 print(student2.school)
