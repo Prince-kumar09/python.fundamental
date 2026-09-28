@@ -26,3 +26,17 @@ class student:
     def show_school(cls):
         print(cls.school)
 student.show_school()
+
+
+
+class student:
+    school=" abc school"
+    @classmethod
+    def change_school(cls,new_school):
+        cls.school=new_school
+student.change_school("xyz school")
+print(student.school)
+
+
+
+
