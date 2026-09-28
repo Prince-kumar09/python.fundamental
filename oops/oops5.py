@@ -18,3 +18,11 @@ student1 = Student("Prince", 21)
 student2 = Student("Rahul", 20)
 student1.introduce()
 Student.change_school("XYZ School")
+
+
+class student:
+    school=" abc school"
+    @classmethod
+    def show_school(cls):
+        print(cls.school)
+student.show_school()
