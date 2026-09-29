@@ -16,3 +16,18 @@ print(student1.get_marks())
 student1.set_marks(90)
 
 print(student1.get_marks())
+
+
+
+
+class BankAccount:
+
+    def __init__(self, account_holder, balance):
+        self.account_holder=account_holder
+        self.__balance=balance
+
+    def get_balance(self):
+        return self.__balance
+account1 = BankAccount("Prince", 5000)
+
+print(account1.get_balance())
