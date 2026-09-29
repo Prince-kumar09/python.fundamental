@@ -26,4 +26,19 @@ class Number:
             return False
 
 print(Number.is_even(5))
+
+
+
+
+class Math:
+    @staticmethod
+    def is_positive(n):
+        if n<=0:
+            return False
+        else:
+            return True
+
+print(Math.is_positive(10))
+print(Math.is_positive(-5))
+print(Math.is_positive(0))
     
