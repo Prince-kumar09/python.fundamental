@@ -12,3 +12,16 @@ dog1 = Dog()
 
 dog1.eat()
 dog1.bark()
+
+
+
+class Parent:
+    def start(self):
+        print("vehicle is starting")
+class Car(Parent):
+    def drive(self):
+        print("car is driving")
+
+Car1=Car()
+Car1.start()
+Car1.drive()
