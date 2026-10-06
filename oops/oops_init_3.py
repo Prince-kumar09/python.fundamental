@@ -22,6 +22,6 @@ class Car(Parent):
     def drive(self):
         print("car is driving")
 
-Car1=Car()
-Car1.start()
-Car1.drive()
+car1=Car()
+car1.start()
+car1.drive()
