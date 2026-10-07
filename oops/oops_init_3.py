@@ -34,10 +34,26 @@ class Animal:
 class Dog(Animal):
     def bark(self):
         print("Dog is barking")
-class puppy(Dog):
+class Puppy(Dog):
     def play(self):
         print("puppy is playing")
-dog1=puppy()
+dog1=Puppy()
 dog1.eat()
 dog1.bark()
 dog1.play()
+
+
+class Father:
+    def Work(self):
+        print("Father is working")
+class Mother:
+    def Cook(self):
+        print("Mother is cooking")
+class Child(Father,Mother):
+    def Play(self):
+        print("child is playing")
+
+child1=Child()
+child1.Work()
+child1.Cook()
+child1.Play()
