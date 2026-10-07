@@ -38,6 +38,6 @@ class puppy(Dog):
     def play(self):
         print("puppy is playing")
 dog1=puppy()
-dog1.play()
+dog1.eat()
 dog1.bark()
 dog1.play()
