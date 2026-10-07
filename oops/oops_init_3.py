@@ -44,16 +44,16 @@ dog1.play()
 
 
 class Father:
-    def Work(self):
+    def work(self):
         print("Father is working")
 class Mother:
-    def Cook(self):
+    def cook(self):
         print("Mother is cooking")
 class Child(Father,Mother):
-    def Play(self):
+    def play(self):
         print("child is playing")
 
 child1=Child()
-child1.Work()
-child1.Cook()
-child1.Play()
+child1.work()
+child1.cook()
+child1.play()
