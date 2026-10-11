@@ -17,11 +17,6 @@ c1 = Circle(5)
 print(c1.area())
 
 
-
-
-
-
-
 from abc import ABC, abstractmethod
 
 class Shape(ABC):
@@ -50,3 +45,14 @@ print(c1.area())
 print(c2.area())
 
 
+
+class Book:
+    def __init__(self, title, pages):
+        self.title = title
+        self.pages = pages
+
+    def __len__(self):
+        return self.pages
+
+book1 = Book("Python Basics", 250)
+print(len(book1))
