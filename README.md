@@ -1,18 +1,25 @@
-# 🐍 Python Learning
+# Python Fundamental
 
-My Python learning journey from **Basics to OOP**, with practice programs and logic-building exercises.
+This repository contains my Python learning journey from basic to advanced concepts.
 
-### 📚 Topics
+##  Topics Covered
+- Python Basics
+- Variables and Data Types
+- Conditional Statements
+- Loops
+- Strings
+- Lists, Tuples, and Sets
+- Dictionaries
+- Functions
+- Object-Oriented Programming (OOP)
+- Practice Programs
 
-* Basics, Conditions & Loops
-* Strings
-* Lists, Tuples, Sets & Dictionaries
-* Functions & Recursion
-* Lambda, Map & Filter
-* Object-Oriented Programming (OOP)
+## Goal
+To strengthen my Python programming skills through regular practice and problem-solving.
 
-### 
+##  Language
+- Python
 
-Building strong Python fundamentals for **AI/ML**.
+## Author
+Prince Kumar
 
-**Author:** Prince Kumar
