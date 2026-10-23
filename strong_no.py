@@ -1,4 +1,4 @@
-num=int(input("Enter number:"))
+num=int(input("Enter the number:"))
 original=num
 total=0
 while num>0:
