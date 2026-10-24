@@ -71,4 +71,5 @@ print("python".startswith("py"))
 #endwith
 print("python".endswith("on"))
 print("trust is most expensive things in the world ")
+print("i love my friends")
 
