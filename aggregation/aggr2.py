@@ -7,3 +7,5 @@ class Student:
 s1 = Student("Aman")
 
 print(s1.name)
+
+
