@@ -109,3 +109,14 @@ for char in word:
         count += 1
 
 print("Vowels =", count)
+
+
+
+str1 = "hello_world"
+str2 = "hello_world"
+
+str3 = "hello-world!"
+str4 = "hello-world!"
+
+print(str1 is str2)
+print(str3 is str4)
