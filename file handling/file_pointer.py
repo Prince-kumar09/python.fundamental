@@ -7,3 +7,5 @@ print("Remaining data:")
 print(file.read())
 
 file.close()
+
+
